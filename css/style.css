@@ -1178,6 +1178,7 @@ button {
 }
 .markdown-body mjx-container {
   display: inline-block;
+  vertical-align: baseline;
 }
 .markdown-body mjx-container[display="true"] {
   display: flex !important;
