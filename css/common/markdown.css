@@ -211,9 +211,12 @@ redefine-tablet()
 }
 .markdown-body mjx-container {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
-.markdown-body mjx-container[display="true"] {
+svg {
+  display: inline;
+}
+mjx-container[display="true"] {
   display: flex !important;
   justify-content: center;
 }
