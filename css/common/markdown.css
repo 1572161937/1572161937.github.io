@@ -213,10 +213,10 @@ redefine-tablet()
   display: inline-block;
   vertical-align: baseline;
 }
-svg {
+.markdown-body mjx-container svg {
   display: inline;
 }
-mjx-container[display="true"] {
+.markdown-body mjx-container[display="true"] {
   display: flex !important;
   justify-content: center;
 }
